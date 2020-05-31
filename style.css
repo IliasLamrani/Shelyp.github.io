@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #464F51;
+}
+
+/* ----- NAV BAR ----- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    transition: 0.3s;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+li:hover, h1:hover {
+    color: teal;
+
+}
+button, li, h1 {
+    cursor: pointer;
+}
+
+button {
+    background-color: teal;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+    transition: 0.3s;
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+/* ----- HOME PAGE CONTENT ----- */
+
+#presentation {
+    opacity: 0;
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+}
+
+#presentation h2 {
+    font-size: 90px;
+}
+
+#presentation h3 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/* ----- CONTACT PAGE ----- */
+
+#contacts {
+    color: black;
+    background-color: white;
+    z-index: 10;
+}
+
+/* ----- GENERAL ----- */
+
+#work-button {
+    margin-top: 30px;
+    width: 240px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
